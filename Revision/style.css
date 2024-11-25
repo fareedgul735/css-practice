@@ -62,7 +62,7 @@ th{
 td{
     border: 3px solid red;
 } */ 
-.container{
+/* .container{
   width: 100vw;
   height: 2000px;
   background-color: antiquewhite;
@@ -71,19 +71,42 @@ td{
 
 
 .child{
-  width: 100vw;
+  width: 100px;
   height: 100px;
   background-color: bisque;
   border: 1px solid black;
+  display: flex;
 
 }
 
 .child-list{
-  width: 100vw;
+  width: 100px;
   height: 100px;
   background-color: bisque;
   border: 1px solid black;
-  position: sticky;
-  top: 0px;
+float: right;
   
 }
+p{
+  @font-face {
+    font-family: fk pathan;
+    src: url   src: url('fonts/icomoon.eot?hsw0h3');
+  }
+} */
+ .parent{
+  min-width: 100vw;
+  height: 500px;
+  background-image: url("tree-736885_1280.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+.child{
+  min-width: 100vw;
+  height: 500px;
+  border: 1px solid rgb(255, 255, 255);
+  background: radial-gradient(rgb(109, 244, 109), rgb(255, 255, 5), rgb(199, 0, 0));
+}
+
+
+
